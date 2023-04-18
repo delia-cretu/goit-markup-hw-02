@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+  --text-color-title: #212121;
+  --text-color-body: #757575;
+  --text-active: #2196f3;
+  --text-align: center;
+  --font-family: 'Roboto', sans-serif;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --letter-spacing: 0.03em;
+}
+body {
+  color: var(--text-color-title);
+  font-family: var(--font-family);
+}
+
+h1 {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+h2,
+h3,
+p {
+  letter-spacing: var(--letter-spacing);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Logo */
+
+.logo-web,
+.logo-studio {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: var(--letter-spacing);
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.global-header .logo-studio {
+  color: #000000;
+}
+
+.global-footer .logo-studio {
+  color: #ffffff;
+}
+
+/* Global Header */
+
+.global-header {
+  background: #ffffff;
+  font-size: var(--font-size-sm);
+}
+
+.global-header ul,
+.global-header nav + span {
+  font-weight: 500;
+}
+
+.global-header a,
+.global-header a:visited {
+  color: var(--text-color-title);
+  text-decoration: none;
+}
+
+.global-header a:hover,
+.global-header a.active {
+  color: var(--text-active);
+}
+
+/* Portofolio section */
+
+.filter-btn {
+  background: #f5f4fa;
+  border: none;
+  border-radius: 4px;
+  color: var(--text-color-title);
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: var(--font-size-md);
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: var(--letter-spacing);
+}
+
+.filter-btn:hover,
+.filter-btn:active {
+  background-color: var(--text-active);
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.portofolio-section h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.portofolio-section p {
+  color: var(--text-color-body);
+  font-size: var(--font-size-md);
+  line-height: 30px;
+  letter-spacing: var(--letter-spacing);
+}
+
+/* Global footer */
+
+.global-footer {
+  background-color: #2f303a;
+}
+
+.global-footer address {
+  font-size: var(--font-size-sm);
+  font-style: normal;
+  letter-spacing: var(--letter-spacing);
+}
+
+.global-footer p {
+  color: #ffffff;
+}
+
+.global-footer a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.global-footer a:hover,
+.global-footer a.focus {
+  color: var(--text-active);
+}
