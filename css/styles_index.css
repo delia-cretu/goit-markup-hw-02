@@ -3,7 +3,7 @@
 :root {
   --text-color-title: #212121;
   --text-color-body: #757575;
-  --text-active: #2196f3;
+  --color-active: #2196f3;
   --font-family: 'Roboto', sans-serif;
   --font-size-sm: 14px;
   --font-size-md: 16px;
@@ -42,10 +42,7 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-<<<<<<< HEAD
   text-align: center;
-=======
->>>>>>> e9708ad91e90e06094a8896b4b68e94b5df7889a
 }
 
 ul {
@@ -80,11 +77,7 @@ section ul {
 .logo-studio {
   font-size: 26px;
   font-weight: 700;
-<<<<<<< HEAD
   line-height: 1.2;
-=======
-  line-height: 1.17;
->>>>>>> e9708ad91e90e06094a8896b4b68e94b5df7889a
   letter-spacing: var(--letter-spacing);
 }
 
@@ -109,7 +102,6 @@ section ul {
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
 .header-left-container {
   display: flex;
   justify-content: space-between;
@@ -148,9 +140,6 @@ section ul {
 /* Global Header - Links */
 
 .global-header a {
-=======
-.global-header ul {
->>>>>>> e9708ad91e90e06094a8896b4b68e94b5df7889a
   font-weight: 500;
 }
 
@@ -168,7 +157,7 @@ section ul {
 
 .global-header a:hover,
 .global-header a.active {
-  color: var(--text-active);
+  color: var(--color-active);
 }
 
 /* Sections */
@@ -308,27 +297,18 @@ section ul {
   color: #ffffff;
 }
 
-<<<<<<< HEAD
 .footer-address li {
   margin-top: 12px;
 }
 
 .footer-address a,
 .footer-address a:visited {
-=======
-.global-footer a,
-.global-footer a:visited {
->>>>>>> e9708ad91e90e06094a8896b4b68e94b5df7889a
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
-<<<<<<< HEAD
 .footer-address a:hover {
-=======
-.global-footer a:hover {
->>>>>>> e9708ad91e90e06094a8896b4b68e94b5df7889a
-  color: var(--text-active);
+  color: var(--color-active);
 }
 
 .footer-media h3 {
@@ -363,4 +343,8 @@ section ul {
 
 svg {
   display: inline-block;
+  width: 20px;
+  height: 20px;
+  fill: black;
+  border: 2px solid black;
 }
