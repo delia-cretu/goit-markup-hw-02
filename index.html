@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" /></a>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /></a>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /></a>
     <title>Web Studio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/styles_index.css" />
+    /></a>
+    <link rel="stylesheet" href="css/reset.css" /></a>
+    <link rel="stylesheet" href="css/styles_index.css" /></a>
   </head>
   <body>
     <!-- Page header -->
@@ -38,8 +38,18 @@
         <div class="header-right-container">
           <!-- Contacts -->
           <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+12127724150"> +1 212-772-4150</a></li>
+            <li>
+              <a href="mailto:info@devstudio.com">
+                <svg><use href="images/symbol-defs.svg#icon-envelope"></use></svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li>
+              <a href="tel:+12127724150"> 
+                <img src="images/smartphone.svg" alt="smartphone icon">
+                +1 212-772-4150
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -48,18 +58,19 @@
     <!-- Main section -->
     <main>
       <!-- Title section -->
-      <section class="title-section">
+      <section class="section title-section">
         <div class="container">
           <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
           <button type="button" class="request-service-btn">Request our service</button>
         </div>
       </section>
 
-      <!-- Advantages section -->
-      <section class="advantages-section">
+      <!-- Work section -->
+      <section class="section work-section">
         <div class="container">
           <ul>
             <li>
+              <div><img src="images/antenna.svg" alt="antenna" /></div>
               <h3>ATTENTION TO DETAILS</h3>
               <p>
                 We go into all the details and processes of your business to develop a customized
@@ -67,6 +78,7 @@
               </p>
             </li>
             <li>
+              <div><img src="images/clock.svg" alt="clock" /></div>
               <h3>PUNCTUALITY</h3>
               <p>
                 With us, you can feel safe and secure. An important principle of the company:
@@ -74,6 +86,7 @@
               </p>
             </li>
             <li>
+              <div><img src="images/diagram.svg" alt="diagram" /></div>
               <h3>PLANNING</h3>
               <p>
                 You will be able to observe and participate in every phase of solution development
@@ -81,6 +94,7 @@
               </p>
             </li>
             <li>
+              <div><img src="images/astronaut.svg" alt="astronaut" /></div>
               <h3>MODERN TECHNOLOGIES</h3>
               <p>
                 We use innovative tools to solve assigned tasks. It's time to simplify work
@@ -88,16 +102,15 @@
               </p>
             </li>
           </ul>
-        </div>
-      </section>
 
-      <!-- Work image section -->
-      <section class="work-section">
-        <div class="container">
           <h2>What we do</h2>
           <ul>
             <li>
-              <img src="images/img-work1.jpg" alt="person typing code" width="370" height="294" />
+              <img 
+                src="images/img-work1.jpg" 
+                alt="person typing code" 
+                width="370" 
+                height="294" /></a>
             </li>
             <li>
               <img
@@ -120,7 +133,7 @@
       </section>
 
       <!-- Team section -->
-      <section class="team-section">
+      <section class="section team-section">
         <div class="container">
           <h2>Our Team</h2>
           <ul>
@@ -152,23 +165,79 @@
           </ul>
         </div>
       </section>
+
+      <!-- Customer section -->
+      <section class="section customer-section">
+        <div class="container">
+          <h2>Regular Customers</h2>
+          <ul>
+            <li><a><img src="images/customer-logo-1.svg" alt="customer logo" /></a></li>
+            <li><a><img src="images/customer-logo-2.svg" alt="customer logo" /></a></li>
+            <li><a><img src="images/customer-logo-3.svg" alt="customer logo" /></a></li>
+            <li><a><img src="images/customer-logo-4.svg" alt="customer logo" /></a></li>
+            <li><a><img src="images/customer-logo-5.svg" alt="customer logo" /></a></li>
+            <li><a><img src="images/customer-logo-6.svg" alt="customer logo" /></a></li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <!-- Page footer -->
     <footer class="global-footer">
       <div class="container">
-        <!-- Logo -->
-        <span class="logo-web">Web</span>
-        <span class="logo-studio">Studio</span>
+        <div class="footer-address">
+          <!-- Logo -->
+          <span class="logo-web">Web</span>
+          <span class="logo-studio">Studio</span>
 
-        <!-- Address info -->
-        <address>
-          <p>695 Park Ave, NY 10065, USA</p>
+          <!-- Address info -->
+          <address>
+            <p>695 Park Ave, NY 10065, USA</p>
+            <ul>
+              <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+              <li><a href="tel:2127724150"> 212-772-4150</a></li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="footer-media">
+          <h3>FIND US ON</h3>
+          <!-- Social media icons -->
           <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:2127724150"> 212-772-4150</a></li>
+            <li>
+              <a href="https://youtube.com"
+              class="link"
+              target="_blank"
+              rel="nofollow noopener noreferrer">
+                <img src="images/instagram.svg" alt="instagram icon" />
+              </a>
+            </li>
+            <li>
+              <a href="https://youtube.com"
+              class="link"
+              target="_blank"
+              rel="nofollow noopener noreferrer">
+                <img src="images/twitter.svg" alt="twitter icon" />
+              </a>
+            </li>
+            <li>
+              <a href="https://youtube.com"
+              class="link"
+              target="_blank"
+              rel="nofollow noopener noreferrer">
+                <img src="images/facebook.svg" alt="facebook icon" />
+              </a>
+            </li>
+            <li>
+              <a href="https://youtube.com"
+              class="link"
+              target="_blank"
+              rel="nofollow noopener noreferrer">
+                <img src="images/linkedin.svg" alt="linkedin icon" />
+              </a>
+            </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
